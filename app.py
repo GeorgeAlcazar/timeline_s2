@@ -4,7 +4,7 @@ st.title("Desarrollo de la IA | Timeline")
 st.write("Autor: Jesus Alvarado Huayhuaz | ISIL")
 st.write("Interactúa con la barra deslizante para explorar los hitos más importantes en la historia de la IA.")
 # URLs de imágenes en GitHub
-base_url = "https://raw.githubusercontent.com/jaalvaradoh/timeline_s2/main/timeline_images/"
+base_url = "https://raw.githubusercontent.com/jaalvaradoh/timeline_s2/main/timelines_images/"
 imagenes = {
    1: base_url + "timeline1.png",
    2: base_url + "timeline2.png",
