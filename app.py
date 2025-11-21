@@ -6,11 +6,11 @@ st.write("Interactúa con la barra deslizante para explorar los hitos más impor
 # URLs de imágenes en GitHub
 base_url = "https://raw.githubusercontent.com/jaalvaradoh/timeline_s2/main/timelines_images/"
 imagenes = {
-   1: base_url + "timeline1.jpg",
-   2: base_url + "timeline2.jpg",
-   3: base_url + "timeline3.jpg",
-   4: base_url + "timeline4.jpg",
-   5: base_url + "timeline5.jpg"
+   1: base_url + "timeline1.png",
+   2: base_url + "timeline2.png",
+   3: base_url + "timeline3.png",
+   4: base_url + "timeline4.png",
+   5: base_url + "timeline5.png"
 }
 # Slider
 opcion = st.slider(
