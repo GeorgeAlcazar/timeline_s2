@@ -6,7 +6,7 @@ st.write("Interactúa con la barra deslizante para explorar los hitos más impor
 # URLs de imágenes en GitHub
 base_url = "https://github.com/GeorgeAlcazar/timeline_s2/blob/main/"
 imagenes = {
-   1: base_url + "timeline1.jpg",
+   1: base_url + "timeline1.png",
    2: base_url + "timeline2.png",
    3: base_url + "timeline3.jpg",
    4: base_url + "timeline4.jpg",
