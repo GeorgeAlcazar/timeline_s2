@@ -4,7 +4,7 @@ st.title("Volatilidad del tipo de cambio pronosticado")
 st.write("Autor: George Alcazar | ISIL")
 st.write("Interactúa con la barra deslizante para explorar los hitos más importantes en la historia del tipo de cambio en el Peru.")
 # URLs de imágenes en GitHub
-base_url = "https://raw.githubusercontent.com/jaalvaradoh/timeline_s2/main/"
+base_url = "https://raw.githubusercontent.com/GeorgeAlcazar/timeline_s2/main/"
 imagenes = {
    1: base_url + "timeline1.jpg",
    2: base_url + "timeline2.png",
