@@ -1,8 +1,8 @@
 import streamlit as st
 st.set_page_config(page_title="Sesion 2 | ISIL", layout="centered")
-st.title("Desarrollo de la IA 2| Timeline")
-st.write("Autor: Jesus Alvarado Huayhuaz 2 | ISIL")
-st.write("Interactúa con la barra deslizante para explorar los hitos más importantes en la historia de la IA 2.")
+st.title("Volatilidad del tipo de cambio pronosticado")
+st.write("Autor: George Alcazar | ISIL")
+st.write("Interactúa con la barra deslizante para explorar los hitos más importantes en la historia del tipo de cambio en el Peru.")
 # URLs de imágenes en GitHub
 base_url = "https://raw.githubusercontent.com/jaalvaradoh/timeline_s2/main/timelines_images/"
 imagenes = {
@@ -23,12 +23,12 @@ opcion = st.slider(
 # Mostrar imagen según slider
 st.image(imagenes[opcion], use_container_width=True)
 if opcion == 1:
- st.info(" **1950 – Test de Turing** | Alan Turing propone un criterio para evaluar la inteligencia de una máquina.")
+ st.info(" Evolucion del tipo de cambio dolar 1990 - 2025.")
 if opcion == 2:
- st.info(" **1956 – Nace el campo de la IA en Dartmouth** | John McCarthy acuña el término *Inteligencia Artificial*.")
+ st.info(" factores externos del cambio del dolar ")
 if opcion == 3:
- st.info(" **1997 – Deep Blue vence a Garry Kasparov** | Primer triunfo de una máquina sobre un campeón mundial de ajedrez.")
+ st.info(" factores internos del cambio del dolar ")
 if opcion == 4:
- st.info(" **2012 – Revolución del Deep Learning (AlexNet)** | Una red neuronal profunda supera ampliamente otros métodos en reconocimiento de imágenes.")
+ st.info(" Modelos para pronosticar el tipo de cambio ")
 if opcion == 5:
- st.info(" **2022 – Avances en modelos generativos** | Llegan tecnologías como ChatGPT, Gemini, Agentes y más.")
+ st.info(" Herramientas de ML para pronosticar ")
