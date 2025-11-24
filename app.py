@@ -7,10 +7,10 @@ st.write("Interactúa con la barra deslizante para explorar los hitos más impor
 base_url = "https://github.com/GeorgeAlcazar/timeline_s2/blob/main/"
 imagenes = {
    1: base_url + "timeline1.jpg",
-   2: base_url + "timeline2.png",
-   3: base_url + "timeline3.png",
-   4: base_url + "timeline4.png",
-   5: base_url + "timeline5.png"
+   2: base_url + "timeline2.jpg",
+   3: base_url + "timeline3.jpg",
+   4: base_url + "timeline4.jpg",
+   5: base_url + "timeline5.jpg"
 }
 # Slider
 opcion = st.slider(
